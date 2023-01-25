@@ -12,9 +12,9 @@ SandboxSh/ns3-tap-bridge.shを参考
 
 ## 4. サンドボックス内での操作
 br-lanにIPv4追加と，デフォルトゲートの設定  
-10.1.1.1/24がサンドボックス，10.1.1.3がns-3のおとりのサーバ
- `ip addr add 10.1.1.1/24 dev br-lan`
- `route add default gw 10.1.1.3`
+10.1.1.1/24がサンドボックス，10.1.1.3がns-3のおとりのサーバ  
+ `ip addr add 10.1.1.1/24 dev br-lan`  
+ `route add default gw 10.1.1.3`  
 
 ## 5. マルウェアの実行
 ## 6. pcapがいっぱい生成されてる
