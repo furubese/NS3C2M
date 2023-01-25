@@ -1,3 +1,5 @@
+# ns3-tap-bridge.sh
+ns-3のUseBridgeモードのために使用しました．
 # python-udp-sender.py
 UDPのテストに利用しました．
 # qemu-debian.sh
