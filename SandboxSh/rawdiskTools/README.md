@@ -13,6 +13,9 @@ raw image diskを作成して，マウントし，マルウェアを詰め込み
 
 rawimagediskの作成について  
 参考 -> ttps://vorfee.hatenablog.jp/entry/2016/01/16/170654
+rawimageのマウントについて  
+「5.6	ゲストのパーティションをホストにマウントする」  
+参考 -> ttps://wiki.archlinux.jp/index.php/QEMU
 
 Qemuのオプションでmalware_imageを設定してください．  
 例：-drive file=/home/fse/work/openwrt/malware_image,format=raw
