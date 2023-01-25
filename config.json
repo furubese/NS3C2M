@@ -1,0 +1,28 @@
+{
+    "c2-server" : [
+        {
+            "port" : "5418",
+            "config_path" : "server-config/mirai_attack.json"
+        }
+    ],
+
+    "server" : 
+    [
+       {
+            "port" : "80",
+            "config_path" : "server-config/hello.json"
+        },
+        {
+            "port" : "23",
+            "config_path" : "server-config/telnet.json"
+        }
+    ],
+    
+    "udpserver" :
+    [
+        {
+            "port" : "53",
+            "config_path" : "server-config/dns.json"
+        }
+    ]
+}
