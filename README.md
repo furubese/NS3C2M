@@ -16,7 +16,7 @@ graph LR
 ```
 ```mermaid
 graph LR
-    ID1((OpenWrt)) -- マルウェアの通信 --> ID2((普通のサーバ))
+    ID1(OpenWrt) -- マルウェアの通信 --> ID2((普通のサーバ))
     ID2 -- C2への接続なら転送 --> ID3((C2サーバ))
     ID2 -- 返信 --> ID1
     ID3 -- 返信 --> ID1
