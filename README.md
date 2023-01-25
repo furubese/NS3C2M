@@ -9,6 +9,10 @@ graph LR
     ID10 -.-> ID2
     ID2 -.-> ID10
     ID3 -.-> ID10
+    ID2 -.-> ID3
+    ID1 --> ID12
+    ID12 --> ID11
+    ID11 --> ID10
     ID1((GhostNode)) -- マルウェアの通信 --> ID2((普通のサーバ))
     ID2 -- C2への接続なら転送 --> ID3((C2サーバ))
     ID2 -- 返信 --> ID1
