@@ -6,7 +6,7 @@ endeavourosのaurを使ってインストールしました．
 エラーが出たらエラーの内容に従って各自修正してください．  
 `yay -S ns3`  
 参照 -> ttps://aur.archlinux.org/packages/ns3
-# 手順
+# 本研究の実験手順
 ## 1. サンドボックスの起動
 SandboxSh/qemu-openwrt.shを参考  
 ※qemu-bridge-helperを使用してください．  
