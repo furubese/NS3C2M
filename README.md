@@ -1,4 +1,4 @@
-# NS3C2M
+# 本研究
 Used ns-3.36.1
 Doesn't work below ns3.36.1
 # ns-3のインストール
