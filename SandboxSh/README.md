@@ -17,11 +17,11 @@ ns-3のConfigureLocalモードとUseLocalでテストするために用いまし
 本研究のサンドボックスを起動するためのメインのshです．  
 qemu-system-armにより，arm32bitアーキテクチャの仮想環境を作成します．  
 また，kvmは必要ないです．  
-また，-M virt-2.9は必要ないとは思います．こちらを参照してください．  
+また，**-M virt-2.9**は必要ないとは思います．こちらを参照してください．  
 　-> ttps://gist.github.com/extremecoders-re/f2c4433d66c1d0864a157242b6d83f67  
 
--net nic -net bridge, br=br0
-については，こちらの「6.3	QEMU の Tap ネットワーク」を参照ください．
- -> ttps://wiki.archlinux.jp/index.php/QEMU
+**-net nic -net bridge, br=br0**
+については，こちらの「6.3	QEMU の Tap ネットワーク」を参照ください．  
+ -> ttps://wiki.archlinux.jp/index.php/QEMU  
 -drive file
 等は，ドライブの設定です．ArchWiki等を確認してください．
