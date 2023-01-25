@@ -6,10 +6,6 @@ graph LR
     ID10(OpenWrtのデバイス) -- 転送 --> ID11
     ID11[ホストqemuのtapデバイス] -- 転送 --> ID12
     ID12[ホストthetap] -- 転送 --> ID1
-    ID10 -.-> ID2
-    ID2 -.-> ID10
-    ID3 -.-> ID10
-    ID2 -.-> ID3
     ID1 --> ID12
     ID12 --> ID11
     ID11 --> ID10
@@ -18,6 +14,15 @@ graph LR
     ID2 -- 返信 --> ID1
     ID3 -- 返信 --> ID1
 ```
+```mermaid
+graph LR
+    ID1((OpenWrt)) -- マルウェアの通信 --> ID2((普通のサーバ))
+    ID2 -- C2への接続なら転送 --> ID3((C2サーバ))
+    ID2 -- 返信 --> ID1
+    ID3 -- 返信 --> ID1
+    
+```
+
 # ns-3のインストール
 endeavourosのaurを使ってインストールしました．  
 エラーが出たらエラーの内容に従って各自修正してください．  
